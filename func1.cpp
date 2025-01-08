@@ -36,28 +36,28 @@ int multify(int a, int b){
 
 
 // define a function for division with minus sign
-int division(int a, int b){
-  int result=0;
-  int remind=0;
+// int division(int a, int b){
+//   int result=0;
+//   int remind=0;
 
-  if (b==0){
-    cout<<"error"<<endl;
-    exit(0);
-    }
+//   if (b==0){
+//     cout<<"error"<<endl;
+//     exit(0);
+//     }
 
 
-  while(true){
-    if (a<b){
-      remind=a;
-      break;
-    }
-    a=a-b;
-    result++;
-  }
-  int result2[2]={result, remind};
+//   while(true){
+//     if (a<b){
+//       remind=a;
+//       break;
+//     }
+//     a=a-b;
+//     result++;
+//   }
+//   int result2[2]={result, remind};
 
- // cout <<"result: "<< result << ", remind: "<< remind <<endl;
-}
+//  // cout <<"result: "<< result << ", remind: "<< remind <<endl;
+// }
 
 
 // define a function to check if a string is "hi"
